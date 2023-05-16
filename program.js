@@ -9,18 +9,18 @@ router.get('/sendMail',(req,res)=>{
         port:587,
         secure:false,
         auth: {
-            type: 'OAuth2',
-            user: 'za878797979111298@gmail.com',
-            pass: '76767575776712',
-            clientId: '818686816195-20m0i9879798798pr08ck1omhedhis9v6menqs5vro.apps.googleusercontent.com',
-            clientSecret: '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DpVljufhuyIn',
-            refreshToken: '1//044w4SsADsnUoCgYIARAAGhjekrhgi87t954AQSNwF-L9Ir_IKlYgXOYPJK-KxD-oWPUfLCDljQGLrxKMD_JRfkmwLrjDQkq_ElUEi8JHDcfNTZl-A'
+            type: 'OAufdfdth2',
+            user: 'za87879sdsd797911fsdfsd12f98@gmail.com',
+            pass: '76767575fsdfsd76712',
+            clientId: '818686816195-20m0i9879798798pr0dfsdfsdf5vro.apps.googleusercontent.com',
+            clientSecret: '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dfyIn',
+            refreshToken: '1//044w4SsADsnUoCgYIARAAGhjekrhgi87t954AQSNwF-LdfsdfsdfxD-oWPUfLCDljQGLrxKMD_JRfkmwLrjDQkq_ElUEi8JHDcfNTZl-A'
         }
       });
       
       var mailOptions = {
-        from: 'zaynmauy8787611298@gmail.com',
-        to: '78687687687@edulab.in',
+        from: 'zaynmauyazzzazasaasaszzzzzzzz8787611298@gmail.com',
+        to: '78687687687ewrqw54234e3qwe23@edulab.in',
         subject: 'Sending Email using Node.js',
         text: 'That was easy!'
       };
